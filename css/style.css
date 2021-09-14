@@ -1,8 +1,8 @@
 body {
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif; 
+    background-color: #FFFFFF;
 }
-
 /* *****************
 search field custom css
 *******************/
@@ -40,22 +40,29 @@ search field custom css
 /******************
  customizing each card 
  ***************** */
-.single-product {
-  padding: 10px;
+ .single-product {
+  padding: 20px;
   transition: 0.6s;
   margin: 5px;
+  background-color: rgba(46, 79, 105, 0.431);
+  height: 500px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgba(0, 255, 85, 0.726);
+  background-color: #0ba4e6ea;
 }
 .product-image {
   width: 150px;
   height: 150px;
 }
+.fa-user-tie{
+  color: #ffffff;
+ }
 .cart {
   width: 350px;
+  background-color: rgba(46, 79, 105, 0.431);
   /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
@@ -68,6 +75,9 @@ search field custom css
 }
 .category {
   text-transform: capitalize;
+}
+#details-btn{
+  background-color: #031F51;
 }
 
 /* **********************
